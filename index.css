@@ -1,0 +1,81 @@
+html,body{
+    overflow-x:hidden;
+}
+.icons-section{
+    margin: auto;
+    width: 75%;
+    border: 3px solid green;
+    padding: 10px;
+    display:flex;
+    flex-direction:row;
+    
+}
+
+.left-icons, .right-icons{
+    display:flex;
+    gap:1rem;
+    text-align:center;
+    width:100%;
+    font-size:2rem;
+}
+
+.left-icons{
+    float: left;
+    margin-left: 5vw;
+}
+
+.right-icons{
+float:right;
+
+}
+
+.right-icons ul{
+    list-style: none;
+}
+.right-icons ul li{
+    display: inline;
+    margin-left:12px;
+}
+
+.icons-page-link:hover{
+    color:grey;
+    cursor:pointer;
+}
+
+.menu-container{
+    display:flex;
+    justify-content:center;
+    gap:15%;
+}
+
+.menu-leauge:hover{
+    /* cursor:pointer; */
+    color:grey;
+}
+
+.menu-leauge{
+    /* font-size:1.5rem; */
+}
+
+.dropdown-content{
+    display:none;
+    position:absolute;
+    background-color:lightgray;
+    min-width:160px;
+    max-width:500px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index:1;
+    color:black;
+    width:100%;
+}
+
+
+.menu-leauge:hover .dropdown-content {
+    display: block;
+
+}
+
+.teams-container{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(50%,1fr));
+}
