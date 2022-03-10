@@ -1,0 +1,47 @@
+.icons-section{
+    margin: auto;
+    width: 75%;
+    border: 3px solid green;
+    padding: 10px;
+    display:flex;
+    flex-direction:row;
+    
+}
+
+
+
+
+.left-icons, .right-icons{
+    display:flex;
+    gap:1rem;
+    text-align:center;
+    width:100%;
+    font-size:2rem;
+}
+
+.left-icons{
+    float: left;
+    margin-left: 5vw;
+}
+
+.right-icons{
+float:right;
+
+}
+
+.right-icons ul{
+    list-style: none;
+}
+.right-icons ul li{
+    display: inline;
+    margin-left:12px;
+}
+
+.icons-page-link:hover{
+    color:grey;
+    cursor:pointer;
+}
+.right-icons li a, .left-icons a{
+    color: inherit; /* blue colors for links too */
+    text-decoration: inherit; /* no underline */
+}
