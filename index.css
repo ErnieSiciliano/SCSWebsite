@@ -1,10 +1,12 @@
 html,body{
     overflow-x:hidden;
+    background-color:lightcoral
 }
 .icons-section{
     margin: auto;
     width: 75%;
-    border: 3px solid green;
+    background-color:antiquewhite;
+    border: 3px solid #FF2400;
     padding: 10px;
     display:flex;
     flex-direction:row;
@@ -60,9 +62,10 @@ float:right;
 .dropdown-content{
     display:none;
     position:absolute;
-    background-color:lightgray;
+    background-color:antiquewhite;
     min-width:160px;
     max-width:500px;
+    border: 3px solid #FF2400;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index:1;
     color:black;
