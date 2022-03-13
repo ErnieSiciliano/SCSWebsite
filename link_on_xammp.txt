@@ -1,1 +1,1 @@
-http://localhost/xampp/SCS_Website/SCSWebsite/index.html
+http://localhost/xampp/SCS_Website/SCSWebsite/index.php
