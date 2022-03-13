@@ -13,32 +13,33 @@
         <?php
             require("menu.php");
         ?>
+
         <div class = "register-container">
             <div class = "register-form-container">
                 
-                <form>
+                <form action = "handleRegister.php" method = "post">
                     <h1>Register for an Account</h1>
                     <label>First Name:</label>
-                    <input id = "first-name-field" type = "text" required />
+                    <input name = "first-name" id = "first-name-field" type = "text" required />
     
                     <label for = "last-name-field">Last Name:</label>
-                    <input id = "last-name-field" type = "text" required />
+                    <input name = "last-name" id = "last-name-field" type = "text" required />
     
                     <label for = "email-field">Email:</label>
-                    <input id = "email-field" type = "email" required />
+                    <input name = "email" id = "email-field" type = "email" required  />
 
                     <label for = "phone-field">Phone: </label>
-                    <input id = "phone-field" type = "text" />
+                    <input name = "phone" id = "phone-field" type = "text"  required />
 
                     
                     <label for = "Address-field">Address: </label>
-                    <input id = "Address-field" type = "text" />
+                    <input name = "address" id = "Address-field" type = "text"   required/>
 
                     <label for = "postal-code-field">Postal Code: </label>
-                    <input id = "postal-code-field" type = "text" />
+                    <input name = "postal-code" id = "postal-code-field" type = "text"  required/>
 
                     <label for = "password-field">Password: </label>
-                    <input id = "password-field" type = "password" required/>
+                    <input name = "password" id = "password-field" type = "password"  required/>
 
                     <input class = "register-button" type = "submit" name = "Register" / >
 

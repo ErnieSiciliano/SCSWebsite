@@ -13,13 +13,13 @@
         <div class = "register-container">
             <div class = "register-form-container">
                 
-                <form>
+                <form action = "handleLogin.php" method ="post">
                     <h1>Login</h1>
                     <label for = "email-field">Email:</label>
-                    <input id = "email-field" type = "text" required />
+                    <input name ="email" id = "email-field" type = "text" required />
 
                     <label for = "password-field">Password: </label>
-                    <input id = "password-field" type = "password" required/>
+                    <input  name = "password" id = "password-field" type = "password" required/>
 
                     <input class = "register-button" type = "submit" name = "Register" / >
 

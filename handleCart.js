@@ -1,6 +1,5 @@
 $(document).ready(function(){
     $("#add-to-cart-button").click(function(){
-        event.preventDefault();
         let name = document.getElementById("product-name").textContent;
         console.log(name);
         $.ajax({
