@@ -26,7 +26,17 @@
     
                     <label for = "email-field">Email:</label>
                     <input id = "email-field" type = "email" required />
-    
+
+                    <label for = "phone-field">Phone: </label>
+                    <input id = "phone-field" type = "text" />
+
+                    
+                    <label for = "Address-field">Address: </label>
+                    <input id = "Address-field" type = "text" />
+
+                    <label for = "postal-code-field">Postal Code: </label>
+                    <input id = "postal-code-field" type = "text" />
+
                     <label for = "password-field">Password: </label>
                     <input id = "password-field" type = "password" required/>
 

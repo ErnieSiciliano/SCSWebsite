@@ -1,6 +1,7 @@
 <html>
 <head>
 <link rel="stylesheet" href="menu.css">
+<link rel="stylesheet" href="index.css">
 </head>
 
 
@@ -16,8 +17,8 @@
     echo ' <ul>';
     echo '<li class = "icons-page-link" ><a href = "register.php">Sign Up</a></li>';
     echo '<li class = "icons-page-link"><a href = "login.php">Sign In</a></li>';
-    echo '<li class = "icons-page-link"><a href = "about-us.php">About Us</a></li>';
-    echo '<li class = "icons-page-link"><a href = "contact-us.php">Contact Us</a></li>';
+    echo '<li class = "icons-page-link"><a href = "contact.php">About Us</a></li>';
+    echo '<li class = "icons-page-link"><a href = "contact.php">Contact Us</a></li>';
     echo '</ul>';
     echo '</div>';
     echo '</section>';
