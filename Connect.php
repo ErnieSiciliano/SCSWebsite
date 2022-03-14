@@ -13,15 +13,6 @@ class Connect{
         }
         return $conn;
     }
-    public function insert($connection,$sql,$table){
-        if ($connection->query($sql) === TRUE) {
-            echo 'Inserting into ' . $table . ' Successful';
-           
-        } else {
-            echo "Error Inserting into " . $table;;
-        }
-        
-    }
 
 }
 
