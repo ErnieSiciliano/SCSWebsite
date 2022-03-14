@@ -25,23 +25,13 @@
                                 <h3>Manchester</h3>
                                 <ul class ="team-container-players-list">
                                     <li><a href = "jersey.php?itemId=1">Ronaldo</a></li>
-                                    <li><a href = "jersey.php?itemId=2">Havertz</a></li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
                                 </ul>
                             </div>
 
                             <div class ="team-container">
                                 <h3>Chelsea</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=2">Havertz</a></li>
                                 </ul>
                             </div>
 
@@ -49,12 +39,7 @@
                             <div class ="team-container">
                                 <h3>Liverpool</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=3">Salah</a></li>
                                 </ul>
                             </div>
 
@@ -73,24 +58,14 @@
                             <div class ="team-container">
                                 <h3>Barcelona</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=4">Messi</a></li>
                                 </ul>
                             </div>
 
                             <div class ="team-container">
                                 <h3>Real Madrid</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=5">Benzema</a></li>
                                 </ul>
                             </div>
 
@@ -98,12 +73,7 @@
                             <div class ="team-container">
                                 <h3>Atheltico Madrid</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=6">Felix</a></li>
                                 </ul>
                             </div>
 
@@ -121,24 +91,14 @@
                             <div class ="team-container">
                                 <h3>AC Milan</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=7">Tonali</a></li>
                                 </ul>
                             </div>
 
                             <div class ="team-container">
                                 <h3>Fiorentina</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=8">Biraghi</a></li>
                                 </ul>
                             </div>
 
@@ -146,12 +106,7 @@
                             <div class ="team-container">
                                 <h3>Napoli</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=9">Insigne</a></li>
                                 </ul>
                             </div>
 
@@ -168,24 +123,14 @@
                             <div class ="team-container">
                                 <h3>Bayern Munich</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=10">Lewandowski</a></li>
                                 </ul>
                             </div>
 
                             <div class ="team-container">
                                 <h3>Dortmund</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=11">Haaland</a></li>
                                 </ul>
                             </div>
 
@@ -193,12 +138,7 @@
                             <div class ="team-container">
                                 <h3>Wolfsburg</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
-                                    <li>Person 3</li>
-                                    <li>Person 4</li>
-                                    <li>Person 5</li>
-                                    <li>Person 6</li>
+                                    <li><a href = "jersey.php?itemId=12">Steffen</a></li>
                                 </ul>
                             </div>
 

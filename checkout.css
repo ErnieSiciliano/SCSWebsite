@@ -1,0 +1,13 @@
+.cart-item-image{
+    width:200px;
+    height:200px;
+}
+
+.all-items-container{
+    display:flex;
+    flex-direction:column;
+    width:50%;
+}
+.total-price-container{
+    margin-left:50%;
+}

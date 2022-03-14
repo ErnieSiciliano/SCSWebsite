@@ -40,8 +40,11 @@
 
 
     ?>
-        <form action="handleCart.php" method = "post">
-        <input type="hidden" id="custId" name="custId" value=<?php echo $jerseyName ?>>
+        <form action = "doCart.php" method = "post">
+            <input type="hidden" id="jerseyName" name="jerseyName" value=<?php echo $jerseyName ?>>
+            <input type="hidden" id="jerseyPrice" name="jerseyPrice" value=<?php echo $jerseyPrice ?>>
+            <input type="hidden" id="jerseyPath" name="jerseyPath" value=<?php echo $jerseyPath ?>>
+            <input type="hidden" id="jerseyColor" name="jerseyColor" value=<?php echo $jerseyColor ?>>
             <div class = "jersey-page-container">
                 <!-- jersey image and name -->
                 <div class = "jersey-info-container">
@@ -56,12 +59,14 @@
                     <div class = "purchase-jersey-container">
                         <p id= "jersey-price" name = "price">Price: $<?php echo $jerseyPrice;  ?></p>
                         <div class ="size-selection-container">
-                            <input type = "radio" id = "small-jersey" name = "small" value = "small"/>
-                            <label for = "small-jersey">Small</label>
-                            <input type = "radio" id = "medium-jersey" name = "medium" value = "medium"/>
-                            <label for = "medium-jersey">Medium</label>
-                            <input type = "radio" id = "large-jersey" name = "large" value = "large"/>
-                            <label for = "large-jersey">Large</label>
+                            <fieldset id = "radio-buttons-group">
+                                <input type = "radio" id = "small-jersey" name = "size-radio-button" value = "small"/>
+                                <label for = "small-jersey">Small</label>
+                                <input type = "radio" id = "medium-jersey" name = "size-radio-button" value = "medium"/>
+                                <label for = "medium-jersey">Medium</label>
+                                <input type = "radio" id = "large-jersey" name = "size-radio-button" value = "large"/>
+                                <label for = "large-jersey">Large</label>
+                            </fieldset>
                         </div>
                         <div class = "add-to-cart-container">
                             <input type ="submit" id = "add-to-cart-button" value = "Add To Cart" /> 
@@ -69,6 +74,6 @@
 
                     </div>
             </div>
-        </form>
+    </form>
     </body>
 </html>
