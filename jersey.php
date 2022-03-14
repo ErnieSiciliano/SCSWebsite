@@ -12,36 +12,60 @@
     </head>
     <body>
 
-    <?php
-            require("menu.php");
-        ?>
-        <form
-        <div class = "jersey-page-container">
-            <!-- jersey image and name -->
-            <div class = "jersey-info-container">
-                <h3 id = "product-name">Name1</h3>
-                <br />
-                <img name = "image" src = "jerseys/jersey1.png" />
-            </div>
+    <?php 
+    require("menu.php");
+    require_once("Connect.php");
+    $connection = new Connect();
+    $connection = $connection -> getConnection();
+    $sql = "SELECT * FROM item WHERE itemId = '{$_GET['itemId']}';";
 
-            
+    $jerseyName = "";
+    $jerseyPath = "";
+    $jerseyPrice = "";
+    $jerseyColor = "";
+    $result = $connection->query($sql);
+    if ($result->num_rows > 0) {
+    // output data of each row
+    while($row = $result->fetch_assoc()) {
 
-                <!-- size information, price  and add to cart button-->
-                <div class = "purchase-jersey-container">
-                    <p id= "jersey-price" name = "price">Price: $399.99</p>
-                    <div class ="size-selection-container">
-                        <input type = "radio" id = "small-jersey" name = "small" value = "small"/>
-                        <label for = "small-jersey">Small</label>
-                        <input type = "radio" id = "medium-jersey" name = "medium" value = "medium"/>
-                        <label for = "medium-jersey">Medium</label>
-                        <input type = "radio" id = "large-jersey" name = "large" value = "large"/>
-                        <label for = "large-jersey">Large</label>
-                    </div>
-                    <div class = "add-to-cart-container">
-                        <button id = "add-to-cart-button" >Add To Cart </button>
-                    </div>
+        $jerseyName = $row["Name"];
+        $jerseyPath = $row["Path"];
+        $jerseyPrice = $row["Price"];
+        $jerseyColor = $row["Color"];
+        break;
+    }
+    } else {
+    echo "0 results";
+    }
 
+
+    ?>
+            <div class = "jersey-page-container">
+                <!-- jersey image and name -->
+                <div class = "jersey-info-container">
+                    <h3 id = "product-name"><?php  echo $jerseyName; ?> </h3>
+                    <br />
+                    <img style="width:700px;height:600px"; name = "image" src = <?php echo $jerseyPath; ?> />
                 </div>
-        </div>
+
+                
+
+                    <!-- size information, price  and add to cart button-->
+                    <div class = "purchase-jersey-container">
+                        <p id= "jersey-price" name = "price">Price: $<?php echo $jerseyPrice;  ?></p>
+                        <div class ="size-selection-container">
+                            <input type = "radio" id = "small-jersey" name = "small" value = "small"/>
+                            <label for = "small-jersey">Small</label>
+                            <input type = "radio" id = "medium-jersey" name = "medium" value = "medium"/>
+                            <label for = "medium-jersey">Medium</label>
+                            <input type = "radio" id = "large-jersey" name = "large" value = "large"/>
+                            <label for = "large-jersey">Large</label>
+                        </div>
+                        <div class = "add-to-cart-container">
+                            <input type ="submit" id = "add-to-cart-button" value = "Add To Cart" /> 
+                        </div>
+
+                    </div>
+            </div>
     </body>
 </html>

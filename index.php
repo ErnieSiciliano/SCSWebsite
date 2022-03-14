@@ -10,9 +10,7 @@
         <!-- <script defer src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> -->
     </head>
     <body>
-        <?php 
-            require('menu.php');
-        ?>
+        <?php require('menu.php');?>
 
         <hr />
         <br />
@@ -26,8 +24,8 @@
                             <div class ="team-container">
                                 <h3>Manchester</h3>
                                 <ul class ="team-container-players-list">
-                                    <li>Person 1</li>
-                                    <li>Person 2</li>
+                                    <li><a href = "jersey.php?itemId=1">Ronaldo</a></li>
+                                    <li><a href = "jersey.php?itemId=2">Havertz</a></li>
                                     <li>Person 3</li>
                                     <li>Person 4</li>
                                     <li>Person 5</li>

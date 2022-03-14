@@ -1,16 +1,7 @@
-<html>
-<head>
+<?php 
 
-</head>
+include("jersey.php");
+echo $hiddenField;
 
-<body>
-<?php
-
-$value = $_POST['name'];
-echo "I got your value! $value";
 
 ?>
-
-
-</body>
-</html>
