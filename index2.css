@@ -1,0 +1,17 @@
+.individual-item-container{
+    display:flex;
+    align-items:center;
+    gap:1rem;
+}
+.individual-item-link{
+    text-decoration: none;
+    color:black;
+    font-size:1.33rem;
+    
+}
+
+.individual-item-link:hover{
+    color:blue;
+    text-decoration: underline;
+
+}
