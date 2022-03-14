@@ -1,7 +1,7 @@
-<?php 
+<?php
 
-include("jersey.php");
-echo $hiddenField;
-
+$y = $_POST['custId'];
+print $y;
 
 ?>
+

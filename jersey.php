@@ -40,6 +40,8 @@
 
 
     ?>
+        <form action="handleCart.php" method = "post">
+        <input type="hidden" id="custId" name="custId" value=<?php echo $jerseyName ?>>
             <div class = "jersey-page-container">
                 <!-- jersey image and name -->
                 <div class = "jersey-info-container">
@@ -67,5 +69,6 @@
 
                     </div>
             </div>
+        </form>
     </body>
 </html>
