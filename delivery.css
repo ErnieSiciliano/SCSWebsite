@@ -1,0 +1,22 @@
+#directions-map{
+      width: 90vw;
+      height: 65vh;
+      margin: 0 auto;
+      padding: 1.2em;
+  
+}
+  
+button {
+      display: inline-block;
+      border: none;
+      padding: 0.5rem 1rem;
+      background: #0069ed;
+      color: #ffffff;
+      cursor: pointer;
+      text-align: center;
+}
+
+#center {
+      text-align: center;
+}
+  

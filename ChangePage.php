@@ -1,7 +1,7 @@
 <?php
 class ChangePage{
     public static function change($seconds,$pageName){
-        $headerStr = "refresh:" . $seconds . ";url=http://localhost/xampp/SCS_Website/SCSWebsite/" . $pageName . ".php";
+        $headerStr = "refresh:" . $seconds . ";url=http://localhost/SCSWebsite/" . $pageName . ".php";
         header( $headerStr );
     }   
 }

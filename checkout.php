@@ -9,10 +9,28 @@
         <title>Cart</title>  
     </head>
 
+    <style>
+        table, th, td {
+            border: 1px solid;
+            text-align: center;
+            background-color: #FFD3CA;
+            border-collapse: collapse;
+        }
+
+        table {
+            width:80%;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+    </style>
+
     <body>
         <?php require("menu.php"); ?>
         <div class = "all-items-container">
                 <div>
+                    <br>
+                    <br>
                     <table>
                         <tr>
                             <th>Image</th>
@@ -43,7 +61,6 @@
                                     $totalPrice += $row['Price'];
                                 }
                             } else {
-                                echo "0 results";
                             }
                         ?>
 
@@ -59,8 +76,18 @@
                     </table>
                 </div>
                 <!-- end of table -->
+                <br>
+                <br>
+                <form action = "clearCart.php" method = "post">
+                    <input type ="submit" id = "clear-cart-button" value = "Clear Cart" /> 
+                </form>
+                <br>
+                <br>
+                <form action = "delivery.php" method = "post">
+                    <input type ="submit" id = "buy-now-button" value = "Buy Now" /> 
+                </form>
 
-
+                <!-- <button type="button" onclick=>Clear Cart</button> -->
                 
             </div>
 

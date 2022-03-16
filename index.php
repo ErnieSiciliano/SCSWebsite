@@ -110,6 +110,8 @@
 
             <!-- end of menu -->
         </section>
+        
+        <img src="bg.jpg" alt="Website Background" style="width:80%;height:1000px;display: block;margin-left: auto;margin-right: auto;border:3px solid #FF2400;">
     </body>
 </html>
 
